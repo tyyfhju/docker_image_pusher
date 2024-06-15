@@ -4,6 +4,6 @@ python
 mysql
 redis:latest
 rabbitmq
-elasticsearch
+elasticsearch:7.9.2
 maxwell
 openjdk:8
