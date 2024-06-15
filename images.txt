@@ -1,3 +1,8 @@
 alpine
 kasmweb/nginx:1.25.3
 python:alpine3.20
+mysql:8.0.37
+redis:latest
+rabbitmq:management
+elasticsearch:7.9.2
+zendesk/maxwell
