@@ -1,9 +1,9 @@
 alpine
-kasmweb/nginx
-python:alpine3.20
+nginx
+python
 mysql
 redis:latest
-rabbitmq:management
+rabbitmq
 elasticsearch
-zendesk/maxwell
+maxwell
 openjdk:8
