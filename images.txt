@@ -5,5 +5,5 @@ mysql
 redis:latest
 rabbitmq
 elasticsearch:7.9.2
-maxwell
+zendesk/maxwell
 openjdk:8
