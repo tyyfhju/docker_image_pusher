@@ -1,6 +1,21 @@
-nginx
-#支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
-#支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+version: '3.8'  # 使用适当的 Docker Compose 版本
+
+services:
+  nginx:
+    image: nginx:latest
+    # 可以在这里添加 Nginx 的额外配置
+  mysql:
+    image: mysql:latest
+    # 配置 MySQL 的参数，如环境变量、挂载卷等
+  redis:
+    image: redis:latest
+    # 配置 Redis 的参数
+  rabbitmq:
+    image: rabbitmq:latest
+    # 配置 RabbitMQ 的参数
+  elasticsearch:
+    image: elasticsearch:latest
+    # 配置 Elasticsearch 的参数
+  maxwell:
+    image: zendesk/maxwell:latest
+    # 配置 Maxwell 的参数
